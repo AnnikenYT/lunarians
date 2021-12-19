@@ -2,7 +2,7 @@
   "name": "lunarians",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
@@ -10,7 +10,8 @@
     "@braks/revue-draggable": "^0.4.1",
     "@heroicons/vue": "^1.0.5",
     "marked": "^4.0.7",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
