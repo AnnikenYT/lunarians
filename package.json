@@ -9,6 +9,7 @@
   "dependencies": {
     "@braks/revue-draggable": "^0.4.1",
     "@heroicons/vue": "^1.0.5",
+    "marked": "^4.0.7",
     "vue": "^3.2.25"
   },
   "devDependencies": {
